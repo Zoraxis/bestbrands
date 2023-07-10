@@ -1,0 +1,73 @@
+#main-screen{
+    margin-top: 26px;
+    width: 1480px;
+    background-color: white;
+}
+#cart{
+    z-index: 2;
+    font-family: 'Futura PT Medium';
+    width: 384px;
+    height: 1080px;
+    background-color: #FAFAFA;
+    padding: 28px;
+}
+#header{
+    z-index: 2;
+}
+#pay-nav{
+    margin-top: 70px;
+    z-index: 0;
+    margin-bottom: 72px;
+}
+#graphics{
+    width: 486px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#signs{
+    width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.items hr{
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+#total{
+    position: absolute;
+    width: 20%;
+    bottom: 0%;
+    right: 0%;
+    background-color: #1D1E20;
+    color: white;
+    padding: 26px 28px 26px 28px;
+}
+#graph-cover{
+    z-index: 1;
+    position: absolute;
+    top: 138px;
+    width: 442px;
+    opacity: 60%;
+    height: 46px;
+    background-color: white;
+}
+#sign-cover{
+    z-index: 1;
+    position: absolute;
+    top: 189px;
+    width: 342px;
+    opacity: 60%;
+    height: 18px;
+    background-color: white;
+}
+#slides{
+    font-family: 'Futura PT Medium';
+    z-index: 2;
+    width: 933px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.addr-radio{
+    margin-left: 6px;
+    margin-right: 24px;
+}

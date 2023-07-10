@@ -1,0 +1,168 @@
+.load{display: none;}
+body{
+    border-radius: 2px;
+    margin: 0px;
+    /* font-family: 'Futura'; */
+    background-color: #ffffff;
+    color: #1D1E20;
+}
+a{
+    text-decoration: none!important;
+    color: #1D1E20;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+.fontM{font-family: "Futura PT Medium"!important;}
+.fw400{font-weight: 400!important;}
+.fw500{font-weight: 500!important;}
+.fw600{font-weight: 600!important;}
+.fw700{font-weight: 700!important;}
+.fs10{font-size: 10px!important;}
+.fs12{font-size: 12px!important;}
+.fs14{font-size: 14px!important;}
+.fs15{font-size: 15px!important;}
+.fs16{font-size: 16px!important;}
+.fs18{font-size: 18px!important;}
+.fs20{font-size: 20px!important;}
+.fs22{font-size: 22px!important;}
+.fs26{font-size: 26px!important;}
+.fs28{font-size: 28px!important;}
+.fs30{font-size: 30px!important;}
+.fs32{font-size: 32px!important;}
+.mb48{margin-bottom: 48px!important;}
+.mb36{margin-bottom: 36px!important;}
+.mb24{margin-bottom: 24px!important;}
+.mb16{margin-bottom: 16px!important;}
+.mb14{margin-bottom: 14px!important;}
+.mb8{margin-bottom: 8px!important;}
+.mt62{margin-top: 62px!important;}
+.mr46{margin-right: 40px!important;}
+.mr24{margin-right: 24px!important;}
+.mr16{margin-right: 16px!important;}
+.mr12{margin-right: 12px!important;}
+.ml33{margin-left: 33px!important;}
+.c47B{color: #74747B!important;}
+.cE20{color: #1D1E20!important;}
+.cA60{color: #5A5A60!important;}
+.underline{text-decoration: underline!important;}
+.txt-centered{text-align: center!important;}
+.rel{position: relative;}
+.pointer{cursor: pointer;}
+.overflow{overflow: visible;}
+.no-overflow{overflow: hidden}
+.row{display: flex;justify-content: space-between;}
+.allign-center{align-items: center;}
+.justify-center{justify-content: center;}
+.h-underline:hover{text-decoration: underline!important;}
+.flex-column{flex-direction: column;}
+.f33{flex: 0 0 33%;}
+.f65{flex: 0 0 65%;}
+.w100{width: 100%!important;}
+.container{
+    /* width: 1648px; */
+    width: 85.833%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mini-container{
+    width: 93.33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fix-btn{
+    display: flex;
+    justify-content: center;
+}
+.outline-btn{
+    border: 1px solid #000000;
+    background-color: white;
+    color: #222222;
+}
+.fill-btn{
+    transition: 0.5s;
+    background: #222222;
+    color: white;
+}
+.pbtn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #74747B;
+    /* border-radius: 10px; */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #494a4d;
+}
+/* :hover{
+     outline: 1px solid red; 
+} */
+#overlay{
+    position: fixed;
+}
+#cover{
+    position: fixed;
+    width: 100%;
+    height: 1080px;
+    top: 0;
+    opacity: 35%;
+    background-color: #000000;
+    z-index: 0;
+}
+#over-content{
+    box-shadow: 0px 2px 6px 0px #031E260A;
+    border-radius: 7px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 100%;
+    background-color: white;
+    padding: 32px 24px 32px 24px;
+}
+input[type="password"], input[type="email"], input[type="text"], input[type="tel"], input[type="number"], input[type="file"], select{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px!important;
+    font-weight: 400;
+}
+input, select{
+    border-radius: 2px;
+    padding: 11px 16px 11px 16px;
+    border: 1.25px solid #E4E4EB
+}
+.o70{opacity: 70%;}
+.cart-del-conf{
+    font-family: 'Inter', 'Futura PT Medium';
+    width: calc(442 - 48)px;
+}
+.btn2{
+    width: 191px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 2px;
+}
+.azure-btn{
+    background-color: #23809A;
+    color: white;
+}

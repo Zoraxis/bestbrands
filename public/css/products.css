@@ -1,0 +1,104 @@
+.sizes-preview {
+    display: flex;
+    height: 0px;
+    opacity: 0;
+    transition: 1s;
+}
+.size{
+    margin: 12px 8px 12px 16px;
+}
+.outof{
+    opacity: 50%;
+}
+.wishlist-main{
+    width: 24px!important;
+    position: fixed;
+    top: 1;
+    right: 1;
+}
+.cards{
+    font-family: 'Futura PT Medium', serif;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 376px;
+    /* width: 19.635%; */
+    /* width: 22.876%; */
+    
+    /* height: 700px; */
+    /* height: 36.458%; */
+    text-align: left;
+    color: #222222;
+    /* margin-right: 46px; */
+}
+.imgs{position: relative; height: 566px; transition: 1s;}
+.img1{z-index: -1;}
+.img2{z-index: -2;}
+.card:hover .imgs .img1{opacity: 0; transition: 1s;}
+.imgs img{
+    position: absolute;
+    transition: 1s;
+    /* height: 566px; */
+    /* height: 29.479%; */
+    /* height: 80.857%; */
+    height: 100%;
+    /* width: 377px */
+    /* width: 19.635%; */
+    /* width: 22.876%; */
+    width: 100%;
+}
+.card:hover .imgs, .card:hover .imgs img{
+    transition: 1s;
+    height: 523px;
+}
+.card:hover .sizes-preview{
+    height: 43px;
+    opacity: 100;
+    transition: 1s;
+}
+
+.pages nav{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pages nav span{
+    opacity: 70%;
+    user-select: none;
+}
+.pages nav a,.pages nav span{
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-style: 18px;
+    font-weight: 500;
+    background-color: #222222;
+    color: white;
+}
+.pages nav a:hover,.page-a{
+    font-weight: 600!important;
+}
+.prod-del{
+    position: absolute;
+}
+.prod-del{
+    right: 0%;
+}
+.prod-del path{
+    z-index: 3;
+    transition: 0.4s;
+    stroke: white;
+}
+.prod-del:hover path{
+    transition: 0.4s;
+    stroke: black;
+}

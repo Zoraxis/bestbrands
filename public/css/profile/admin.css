@@ -1,0 +1,11 @@
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input select{
+    height: 54px;
+}
+#img-lbl{
+    height: 20px;
+    width: 390px;
+}

@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cards div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cards div img{
+    width: 270px;
+    height: 400px;
+    border-radius: 20px;
+}

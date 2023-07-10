@@ -1,0 +1,71 @@
+input, select{
+    height: 50px;
+    width: 499px;
+}
+select{
+    width: 499px;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.input input{
+    height: 25px;
+    width: 466px;
+}
+.input{
+    width: 499px;
+    margin-bottom: 10px;
+}
+.box-s{
+    cursor: default;
+    width: 120px;
+    padding: 12px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box input{
+    width: 36px;
+    height: 20px;
+    padding: 2px;
+}
+.sz{
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+svg{
+    cursor: pointer;
+}
+.del-img{
+    z-index: 3;
+    opacity: 100%;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+}
+label{
+    font-family: 'Inter'
+}
+.addf-label{
+    padding: 10px;
+    width: auto;
+}
+.slider{
+    margin-top: 15px;
+}
+.product-description{
+    margin-top: 15px;
+}
+.img-num{
+    z-index: 3;
+    opacity: 100;
+    position: absolute;
+    bottom: 1%;
+    right: 12%;
+    font-weight: 900;
+    font-size: 35px;
+  }

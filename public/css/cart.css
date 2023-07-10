@@ -1,0 +1,39 @@
+.cart-container{
+    padding-left: 64px;
+    padding-right: 32px;
+    width: auto;
+}
+.items-container{
+    width: 1362px;
+    margin-right: 68px;
+}
+.summary-container{
+    width: 394px;
+}
+.cart-el img{
+    width: 174px;
+    margin-right: 20px; 
+}
+.dot-separator{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.count-display{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.cart-del-conf{
+    font-family: 'Inter', 'Futura PT Medium';
+    width: calc(442 - 48)px;
+}
+.btn2{
+    width: 191px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 2px;
+}
+.azure-btn{
+    background-color: #23809A;
+    color: white;
+}

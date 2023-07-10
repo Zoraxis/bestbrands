@@ -1,0 +1,111 @@
+nav{
+    font-family: 'Futura PT Medium', serif;
+}
+#nav{
+    background-color: white;
+    margin-bottom: 12px;
+    z-index: 5;
+}
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    min-height: 62px;
+}
+.nav-underline{
+    border-bottom: 0.75px solid #E4E4EB;
+}
+.nav-3{flex: 0 0 33%;}
+.nav-25{flex: 0 0 25%;}
+.flex{display: flex;}
+.flex-around {justify-content: space-around;}
+.flex-between {justify-content: space-between;}
+.flex-start {justify-content: flex-start;}
+.w-30{width: 40%;}
+.nav-link{
+    color: #74747B;
+    cursor: pointer;
+    margin-right: 24px;
+}
+.t-link{
+    font-weight: 500;
+    font-size: 18px;
+}
+.l-active{ 
+    font-weight: 600!important;
+    color: #1D1E20
+}
+.b-link{
+    color: #1D1E20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-title{
+    color: #1D1E20;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.nav-icons{
+    display: flex;
+    justify-content: right;
+}
+.nav-btn{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-info{
+    background-color: white;
+}
+.info-block{
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    padding-left: 64px;
+}
+#cart-num{
+    position: absolute;
+}
+#cart-prev{
+    z-index: 3;
+    width: 375px;
+    padding: 25px;
+    right: 22px;
+    top: 74px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.05), 0px 4px 12px rgba(28, 38, 83, 0.1);
+}
+hr{
+    border: 1px solid #E4E4EB;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.cart-prev-el img{
+    height: 148px;
+    width: 120px;
+    margin-right: 12px;
+}
+.cart-prev-desc{
+    display: flex;
+    flex-direction: column;
+}
+.cart-det{
+    display: flex;
+    align-items: center;
+}
+.cart-det div{
+    margin-right: 6px;
+}

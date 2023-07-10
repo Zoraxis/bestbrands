@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.top-offset{
+    margin-top: 36px;
+}
+.picture-container{
+    /* margin-top: 36px; */
+    width: 659px;
+    /* width: 34.322%; */
+    /* height: 815px; */
+    margin-right: 116px;
+    height: 900px;
+}
+.picture-container img{
+    width: 100%;
+    height: 815px;
+    margin-bottom: auto;
+}
+.product-description{
+    width: 534px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #1D1E20;
+
+    display: flex;
+    flex-direction: column;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sizes{
+    margin-bottom: 20px;
+}
+.size-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.box{
+    padding: 12px 38px 12px 38px;
+    margin-right: 10px;
+    border: 1px solid #C9C9CF;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.box:hover, .chosen{
+    border: 1px solid #000000;
+}
+#size-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.size-grid{
+    text-decoration: underline;
+}
+.size-grid:hover, .link:hover{
+    color: #3C3C3C;
+}
+.black{
+    color: #000000;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 33px;
+}
+.fill-btn:hover{
+    background: #3C3C3C;
+}
+.outline-btn:hover{
+    opacity: 75%;
+}
+.btn-title{
+    padding-right: 24px;
+}
+.icon{
+    transition: 1s;
+    padding-left: 24px;
+}
+.in-cart{
+    transition: 0.2s;
+    background-color: #74747B;
+}
